@@ -1,10 +1,12 @@
 import React from 'react';
+import Layout from './app';
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>This is our social media project</h1>
+      <Layout />
     </div>
   );
 }
